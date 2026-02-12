@@ -130,7 +130,7 @@ export default function LoveWebsite() {
 
             {/* Hero Cinematic */}
             <motion.section style={{ scale: scaleHero }} className="text-center py-32">
-                <h1 className="text-6xl font-extrabold mb-6">مهند ❤ مريم</h1>
+                <h1 className="text-6xl font-extrabold mb-6">مريم ❤ مهند</h1>
                 <p className="text-2xl">قصة حب مكتوبة للابد</p>
                 <button
                     onClick={triggerSecret}
