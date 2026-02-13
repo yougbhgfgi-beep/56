@@ -65,14 +65,14 @@ export default function LoveWebsite() {
                     <h1 className="text-3xl font-bold mb-6">دخول خاص</h1>
                     <div className="flex gap-4 justify-center mb-6">
                         <input
-                            type="text"
+                            type="password"
                             placeholder="21"
                             value={day}
                             onChange={(e) => setDay(e.target.value)}
                             className="w-20 p-3 rounded-xl text-black text-center"
                         />
                         <input
-                            type="text"
+                            type="password"
                             placeholder="9"
                             value={month}
                             onChange={(e) => setMonth(e.target.value)}
